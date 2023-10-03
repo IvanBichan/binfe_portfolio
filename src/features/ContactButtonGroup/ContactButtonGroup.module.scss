@@ -1,0 +1,19 @@
+@import '../../accets/style/sass/variables';
+@import '../../accets/style/sass/mixins';
+
+.iconsContainer {
+    width: 220px;
+    padding: 30px;
+    @include positionBlocks(row, space-between, center);
+
+}
+
+.icon {
+    font-size: 20px;
+    color: $color-secondary;
+    &:hover {
+        color: $color-primary;
+        transform: translateY(-5px);
+        transition: 0.5s;
+    }
+}

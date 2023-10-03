@@ -1,0 +1,85 @@
+@import '../../accets/style/sass/variables';
+
+.sidebar {
+  padding: 10px;
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  background: $color-bg-primary;
+  transform: translateX(-100%);
+  transition: 0.5s;
+  z-index: 101;
+  font-size: 30px;
+}
+
+.sidebar.open {
+  transform: translateX(+0%);
+
+  .closeIcon {
+    cursor: pointer;
+    color: $color-secondary;
+  }
+
+  & :hover {
+    color: $color-primary;
+  }
+}
+
+.background {
+  position: fixed;
+  margin-right: 250px;
+  width: 100%;
+  opacity: 50%;
+  height: 100%;
+  background-color: black;
+  z-index: 10;
+}
+
+.nav {
+  background: $color-bg-primary;
+  margin-top: 30px;
+
+  a {
+    display: block;
+    padding-top: 20px;
+    margin: 0 0 10px 70px;
+    color: $color-secondary;
+    text-transform: capitalize;
+    transition: all 0.3s cubic-bezier(.645, .045, .355, 1);
+    position: relative;
+    font-size: 22px;
+    line-height: 27px;
+    width: max-content;
+
+    &:hover {
+      color: $color-primary;
+
+      &::before {
+        width: 100%;
+      }
+    }
+
+    &::before {
+      position: absolute;
+      content: "";
+      left: 0;
+      width: 0;
+      height: 3px;
+      background: $color-primary;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+      bottom: -10px;
+    }
+  }
+
+  a.active {
+    color: $color-primary;
+
+    &::before {
+      width: 100%;
+    }
+  }
+}
+
+

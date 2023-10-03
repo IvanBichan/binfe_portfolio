@@ -1,0 +1,22 @@
+@import '../../accets/style/sass/variables';
+@import '../../accets/style/sass/mixins';
+@media screen and (max-width: 629px) {
+    .skills {
+        justify-content: center;
+    }
+}
+.skillsContainer {
+    background-color: $color-bg-primary;
+    height: max-content;
+}
+.skillBlock {
+    @include positionBlocks(column, flex-start, center);
+    flex-wrap: nowrap;
+}
+.skills {
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}

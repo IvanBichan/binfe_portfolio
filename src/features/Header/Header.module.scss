@@ -1,0 +1,35 @@
+@import '../../accets/style/sass/variables';
+@import '../../accets/style/sass/mixins';
+
+@media screen and (min-width: 768px) {
+  .smallScreenNavigation {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bigScreenNavigation {
+    display: none;
+  }
+}
+
+.header {
+  position: fixed;
+  height: 68px;
+  width: 100%;
+  background: $color-bg-secondary;
+  @include positionBlocks(row, space-between, center);
+  box-sizing: border-box;
+  margin: 0;
+  z-index: 100;
+
+  .burger {
+    font-size: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+
+  &:hover {
+    color: $color-primary;
+  }
+}

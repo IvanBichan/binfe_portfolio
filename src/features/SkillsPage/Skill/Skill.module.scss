@@ -1,0 +1,77 @@
+@import '../../../accets/style/sass/variables';
+@import '../../../accets/style/sass/mixins';
+
+.skillContainer {
+  background: $color-bg-secondary;
+  border-radius: 5px;
+  width: 450px;
+  cursor: pointer;
+  justify-content: space-between;
+  margin: 10px;
+  box-sizing: border-box;
+
+  &:hover {
+    background-image: -webkit-gradient(linear, left top, right top, from(#f61b10), to(#ef0963));
+    background-image: -webkit-linear-gradient(left, #f61b10, #ef0963);
+    background-image: linear-gradient(90deg, #f61b10, #ef0963);
+    transform: translateY(-5px);
+    transition: 0.3s;
+
+    .iconContainer {
+      color: $color-secondary;
+    }
+
+    .content {
+      color: $color-secondary;
+
+      h3 {
+        white-space: pre-line;
+      }
+
+      p {
+        color: $color-secondary;
+      }
+    }
+  }
+}
+
+.service {
+  display: flex;
+  background: transparent;
+  padding: 40px;
+}
+
+.content {
+  width: 100%;
+  @include positionBlocks(column, flex-start, flex-start);
+  font-family: $font-family;
+  color: $color-secondary;
+  box-sizing: border-box;
+
+  h3 {
+    margin: 0 0 19px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4074;
+    word-break: break-word;
+  }
+
+  p {
+    margin: 0;
+    color: $font-color-secondary;
+    font-size: 16px;
+  }
+}
+
+.skillIcon {
+  width: 54px;
+  height: 54px;
+  color: $color-primary;
+}
+
+.iconContainer {
+  @include positionBlocks(row, flex-start, flex-start);
+  margin-right: 30px;
+  font-size: 40px;
+  color: $color-primary;
+}

@@ -1,0 +1,30 @@
+@import '../../accets/style/sass/variables';
+@media screen and (max-width: 629px){
+    .projects{
+        justify-content: center;
+    }
+
+}
+@media screen and (min-width: 630px){
+    .projects{
+        justify-content: space-evenly;
+    }
+}
+.projectsContainer{
+    background-color: $color-bg-primary;
+    min-height: 100vh;
+}
+.projectsBlock{
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.title{
+    background-color: transparent;
+}
+.projects{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,32 @@
+@import 'src/accets/style/sass/variables';
+
+.title {
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    line-height: 1.4074;
+    color: $color-primary;
+    margin: 70px 0 20px;
+    font-family: $font-family;
+    font-size: $h3;
+    text-align: center;
+    h2 {
+        margin: 0;
+    }
+    p {
+        color: $font-color-secondary;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    &::before {
+        position: absolute;
+        content: "";
+        width: 100px;
+        height: 2px;
+        background: $color-primary;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 50%);
+    }
+}
