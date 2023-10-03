@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/binfe_portfolio/static/css/main.01acd79d.css",
+    "main.js": "/binfe_portfolio/static/js/main.395ffbf3.js",
+    "static/media/myPhoto.jpg": "/binfe_portfolio/static/media/myPhoto.268fc766d598ffbe7506.jpg",
+    "static/media/SN.jpeg": "/binfe_portfolio/static/media/SN.58439e177c5f29fba66f.jpeg",
+    "static/media/todo.jpeg": "/binfe_portfolio/static/media/todo.052afc194d27fb8d0fbd.jpeg",
+    "static/media/question_1.jpeg": "/binfe_portfolio/static/media/question_1.bf228f2c3fecb2c87307.jpeg",
+    "index.html": "/binfe_portfolio/index.html",
+    "main.01acd79d.css.map": "/binfe_portfolio/static/css/main.01acd79d.css.map",
+    "main.395ffbf3.js.map": "/binfe_portfolio/static/js/main.395ffbf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01acd79d.css",
+    "static/js/main.395ffbf3.js"
+  ]
+}
