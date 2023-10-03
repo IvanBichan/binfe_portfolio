@@ -1,5 +1,6 @@
 {
   "name": "bin_portfolio",
+  "homepage":"https://IvanBichan.github.io/binfe_portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
