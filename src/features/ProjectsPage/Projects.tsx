@@ -21,21 +21,21 @@ export const Projects: FC = () => {
             demoLink: LINKS.PROJECT_LINKS.CARDS_DEMO,
             style: cardsStyle,
             codeLink: LINKS.PROJECT_LINKS.CARDS_CODE,
-            description: 'Technology stack: react, redux-toolkit, react-redux, redux-thunk, react-router-dom, typescript, dayJS, MUI'
+            description: 'Technology stack: react, typescript, rtk-query, react-hook-form, storybook, radix'
         },
         {
             title: 'Social network',
             demoLink: LINKS.PROJECT_LINKS.SOCIAL_NETWORK_DEMO,
             style: socialStyle,
             codeLink: LINKS.PROJECT_LINKS.SOCIAL_NETWORK_CODE,
-            description: 'Technology stack: react, redux, react-redux, redux-thunk, typescript, react-router-dom, axios, redux-form, reselect, material UI'
+            description: 'Technology stack: react, redux, react-redux, react-router-dom, axios, formic'
         },
         {
             title: 'Todolist',
             demoLink: LINKS.PROJECT_LINKS.TODO_DEMO,
             style: todoStyle,
             codeLink: LINKS.PROJECT_LINKS.TODO_CODE,
-            description: 'Technology stack: react, redux, react-redux, redux-thunk, react-router-dom, react-hook-form, typescript, dayjs, axios, react-bootstrap, react-icons'
+            description: 'Technology stack: react, typescript, redux, react-redux, redux-thunk, react-router-dom, axios, formic, react-icons, material UI'
         },
 
     ]
