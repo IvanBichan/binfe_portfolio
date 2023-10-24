@@ -14,7 +14,7 @@ export const ABOUT = {
 
 export const LINKS = {
     GITHUB: 'https://github.com/IvanBichan',
-    LINKED_IN: 'https://www.linkedin.com/in/ivan-bichan-b30b2b266/',
+    LINKED_IN: 'https://www.linkedin.com/in/ivanbichan/',
     TELEGRAM: 'https://t.me/m_rBIN',
     CODEWARS: 'https://www.codewars.com/users/ivanbichanfe',
     PROJECT_LINKS: {
